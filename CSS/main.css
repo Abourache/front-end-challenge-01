@@ -1,0 +1,93 @@
+body {
+     Font-size : 18px ;
+     font-family: 'Outfit', sans-serif;
+     background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+     background-color:  hsl(216, 50%, 16%);
+     width: 300px;
+     margin: 0 auto;
+     margin-top: 70px;
+     border-radius: 15px;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+}
+
+.container .image {
+     width: 260px;
+     margin: 20px;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+}
+.container h3 {
+     color: hsl(0, 0%, 100%);
+     margin: 20px;
+     margin-top: 10px;
+     line-height: 5px;
+}
+.container p {
+     color: rgba(255, 255, 255, 0.411);
+     margin: 20px;
+     font-size: 16px;
+     line-height: 1.7;
+     margin-bottom: 0px;
+}
+.container .timeprie {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+.container .timeprie .icon {
+     display: flex;
+     align-items: center;  
+}
+.container .timeprie i {
+     margin-right: 7px;
+}
+.container .timeprie h4 {
+     color:  hsl(178, 100%, 50%);
+}
+.container .timeprie h5 {
+     color: rgba(255, 255, 255, 0.411);
+}
+.container .timeprie h5, h4 {
+     margin-top: 20px;
+}
+hr {
+     width: 260px; 
+     margin-top: -10px;
+     text-align: center; 
+     border-color: hsl(0deg 0% 100% / 12%);
+}
+.imgavatar {
+     
+}
+.avatar {
+     width: 30px;
+     margin: 10px 0 10px 20px;
+     border: 1px solid white;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+}
+.imgavatar p {
+     position: relative;
+     top: -20px;
+     left: -13px;
+     display: inline; 
+     color: rgba(255, 255, 255, 0.363);
+     margin-top: 10px;
+}
+.imgavatar p span {
+     color: white;
+     font-weight: 300;
+     font-size: 16px;
+}
